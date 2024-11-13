@@ -32,10 +32,10 @@
                             @csrf
                             <div class="form-group">
                                 <input type="text" class="form-control" placeholder="Tag name" name="title">
-                            </div>
-                            @error('title')
+                                @error('title')
                                 <div class="text-danger m-3">{{ $message }}</div>
-                            @enderror
+                                @enderror
+                            </div>
                             <input type="submit" class="btn btn-primary" value="Create">
                         </form>
                     </div>
